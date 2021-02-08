@@ -44,6 +44,7 @@ A campaign issue is "split" into multiple Task issues, or if it can't or doesn't
 * Upon completion of a task
   * If the deliverable is a Pull Request, move the Task issue to "In review" column, and make sure to link the Task issue to the PR with one of [the keywords in the PR description](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword). Then the merge of the PR will automatically close the Task issue.
   * Otherwies, close the Task issue. The issue will be automatically moved to the "Done" column of the projeect board.
+* When manager notices that a milestone with associated Campaign issue has been completed, the manager closes both the milestone and the associated Campaign issue
 
 
 ## Automation possibilities
