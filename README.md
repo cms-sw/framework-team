@@ -66,3 +66,7 @@ The creation of task issues from the campaing issue could be largely automated:
   * In the Task issue description, add `Part of #<campaign issue number>`.
   * If the item in the Campaign issue task list has sub-items, copy the item and the sub-items to a task list in the Task issue description
 * Remove the task list from the Campaign issue description
+
+### Make priority labels follow the assignment in project board columns
+
+It would make life a bit easier if the priority labels would be assigned automatically based on the low/medium/high priority column (in the [Campaign view](https://github.com/makortel/framework/projects/1)) in which an issue is moved to. If an issue is moved from any of these to a quarterly column, the priority label should not be changed.
