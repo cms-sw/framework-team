@@ -1,4 +1,4 @@
-# Alpha test for CMSSW framework project boards
+# Beta test for CMSSW framework project boards
 
 ## Nomenclature
 
