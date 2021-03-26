@@ -51,7 +51,7 @@ A campaign issue is "split" into multiple Task issues, or if it can't or doesn't
 Label colors have been created with https://colorbrewer2.org/
 
 * Priority: Breaking, High impact, Promised, Annoyance, Wishlist; 5-class YlOrRd
-* Kind: Bug, Maintenance, New feature, User request, R&D; 5-class Blues
+* Kind: Bug, Maintenance, New feature, Tool, User request, R&D; 6-class Blues
 * Type: Campaign, Task, Waiting; 3-class Greens
 * Overarching directive: Throughput, Threading efficiency, Heterogeneous computing, Code modernization; 4-class Purples
 
