@@ -2,26 +2,27 @@
 
 ## Nomenclature
 
-* *Campaign issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmss](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Campaign view](https://github.com/makortel/framework/projects/1)
-* *Task issue*: A single work item, managed in the [quarterly project boards](https://github.com/makortel/framework/projects/1)
+* *Campaign issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Campaign view](https://github.com/users/makortel/projects/4)
+* *Task issue*: A single work item, managed in the [Task view](https://github.com/users/makortel/projects/5)
 
 A campaign issue is "split" into multiple Task issues, or if it can't or doesn't make sense, it can itself be a Task issue as well.
 
-## Creating issues
+## Creating Campaign issues
 
 * Create new issue (anyone)
   * On the right, select from "Labels" if it is a "Bug fix", "New feature", "Maintenance", or "User request"
-  * From "Labels" select "Campaign"
-  * From "Projects" select "Campaign view" (it should automatically go to the "Priority not yet assigned" column)
+  * From "Labels" select "Campaign" (this should lead the issue to be automatically added to the Campaign project with the "New" status)
 * Assign priority (manager, or in a meeting)
-  * Go to the [Campaign view](https://github.com/makortel/framework/projects/1) project board
-  * Set the priority label
-  * Move the card to the corresponding priority column
-    * If "Critical", move to the column of current quarter
+  * The priority is set within the [Campaign view](https://github.com/users/makortel/projects/4) project. When the priority is set, the issue's status should be changed from "New" to "Backlog". 
+    * The priority issue labels should not be set anymore
+  * There are many ways to set the priority and status, some examples
+    * [Backlog view](https://github.com/users/makortel/projects/4/views/1) in the project
+    * [By priority view](https://github.com/users/makortel/projects/4/views/2) in the project
+    * Within the issue itself (the project assignment on the right)
 * Planning on Campaign issue (anyone)
-  * As long as a Campaign issue sits in the priority column, it can be planned with a task list in the issue description. The number of items in the task list can be used to estimate the effort needed to complete the campaign.
+  * The Campaign issue is planned with a task list in the issue description
   * Campaign issue can be assigned to a developer at this stage, but it is not necessary
-* When we decide that we start working on a Campaign issue (ideally in the weekly meeting, can be in between as well; mostly for manager)
+* When we decide that we start working on a Campaign issue (ideally in the weekly meeting, can be in between as well; mostly for manager) (TODO from here downwards)
   * In the [Campaign view](https://github.com/makortel/framework/projects/1), the Campaign issue is moved from the priority column to the column of that quarter
   * Assign the Campaign issue to one or more developers
   * If the Campaign issue has a task list (see automation below)
@@ -50,32 +51,11 @@ A campaign issue is "split" into multiple Task issues, or if it can't or doesn't
 
 Label colors have been created with https://colorbrewer2.org/
 
-* Priority: Breaking, High impact, Promised, Annoyance, Wishlist; 5-class YlOrRd
+* ~~Priority: Breaking, High impact, Promised, Annoyance, Wishlist; 5-class YlOrRd~~ (not to be used anymore)
 * Kind: Bug, Optimization, Maintenance, New feature, Tool, User request, Documentation, R&D; 8-class Blues
 * Type: Campaign, Task, Waiting; 3-class Greens
 * Overarching directive: Throughput, Threading efficiency, Heterogeneous computing, Code modernization; 4-class Purples
 
+## Project sizes
 
-## Automation possibilities
-
-### Creation of task issues from the campaign issue
-
-The creation of task issues from the campaing issue could be largely automated:
-* Create a Milestone with the same name as the Campaign issue
-  * In the Milestone description, add text `Tracking #<campaign issue number>`
-  * In the Campaign issue description, add text `Progress tracked in <link to milestone>`
-* For each (top-level) item in the task list in the Campaign issue task list create a new (Task) issue
-  * Title of the Task issue should come from the content of the task list item
-     * Could be useful to have an option to add an arbitrary short prefix to the Task issue title
-  * Set priority label to be the same as in the Campaign issue
-  * Add "Task" label
-  * Set the assignees to be the same as in the Campaign issue (if any)
-  * Add the Task issue to the project board of the latest quarter ("To do" column)
-  * Add the Task issue to the Milestone corresponding the Campaign issue
-  * In the Task issue description, add `Part of #<campaign issue number>`.
-  * If the item in the Campaign issue task list has sub-items, copy the item and the sub-items to a task list in the Task issue description
-* Remove the task list from the Campaign issue description
-
-### Make priority labels follow the assignment in project board columns
-
-It would make life a bit easier if the priority labels would be assigned automatically based on the low/medium/high priority column (in the [Campaign view](https://github.com/makortel/framework/projects/1)) in which an issue is moved to. If an issue is moved from any of these to a quarterly column, the priority label should not be changed.
+TODO
