@@ -109,3 +109,5 @@ Still to be done
 
 * In [Activity view](https://github.com/users/makortel/projects/4), update the quarter of all non-Done Activity issues that had the quarter set to the previous quarter
 * In [Task view](https://github.com/users/makortel/projects/5), update the quarter of all non-Done Task issues that had the quarter set to the previous quarter
+
+
