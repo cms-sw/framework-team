@@ -3,7 +3,7 @@
 ## Nomenclature
 
 * *Task issue*: A single work item, managed in the [Tasks project](https://github.com/orgs/cms-sw/projects/10).
-* *Activity issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Activities project](https://github.com/orgs/cms-sw/projects/10)
+* *Activity issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Activities project](https://github.com/orgs/cms-sw/projects/11)
   * Consists of many Task issues, or if it can't or doesn't make sense, it can itself be a Task issue as well.
 * *Umbrella issue*: Even higher-level issue to collect information on many related Activities. There is no specific planning for Umbrellas.
   * These are long-lasting development topics that consist of multiple Activities
@@ -15,7 +15,7 @@ Maintenance Tasks are not part of any Activity, but have `Task` and `Maintenance
 
 Documentation Tasks can be part of an Activity, or separate to any Activities. In either case, they have `Task` and `Documentation` labels.
 
-## Activity properties in the [Activities project](https://github.com/orgs/cms-sw/projects/11) project
+## Activity properties in the [Activities project](https://github.com/orgs/cms-sw/projects/11)
 
 Each activity should be assigned a priority. Each activity may also
 have a size, that is a very crude estimate` of the FTE time needed
@@ -57,7 +57,7 @@ Still to be done
   * On the right, select from "Labels" if it is a "Bug fix", "New feature", "Maintenance", or "User request"
   * From "Labels" select "Activity" (this should lead the issue to be automatically added to the Activity project with the "New" status)
 * Assign priority (manager, or in a meeting)
-  * The priority is set within the [Activities project](https://github.com/orgs/cms-sw/projects/11) project. When the priority is set, the issue's status should be changed from "New" to "Backlog". 
+  * The priority is set within the [Activities project](https://github.com/orgs/cms-sw/projects/11). When the priority is set, the issue's status should be changed from "New" to "Backlog". 
     * The priority issue labels should not be set anymore
   * There are many ways to set the priority and status, some examples
     * [Backlog view](https://github.com/orgs/cms-sw/projects/11/views/1) in the project
