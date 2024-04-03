@@ -2,8 +2,8 @@
 
 ## Nomenclature
 
-* *Task issue*: A single work item, managed in the [Task view](https://github.com/users/makortel/projects/5).
-* *Activity issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Activity view](https://github.com/users/makortel/projects/4)
+* *Task issue*: A single work item, managed in the [Tasks project](https://github.com/orgs/cms-sw/projects/10).
+* *Activity issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Activities project](https://github.com/orgs/cms-sw/projects/10)
   * Consists of many Task issues, or if it can't or doesn't make sense, it can itself be a Task issue as well.
 * *Umbrella issue*: Even higher-level issue to collect information on many related Activities. There is no specific planning for Umbrellas.
   * These are long-lasting development topics that consist of multiple Activities
@@ -15,7 +15,7 @@ Maintenance Tasks are not part of any Activity, but have `Task` and `Maintenance
 
 Documentation Tasks can be part of an Activity, or separate to any Activities. In either case, they have `Task` and `Documentation` labels.
 
-## Activity properties in the [Activity view](https://github.com/users/makortel/projects/4) project
+## Activity properties in the [Activities project](https://github.com/orgs/cms-sw/projects/11) project
 
 Each activity should be assigned a priority. Each activity may also
 have a size, that is a very crude estimate` of the FTE time needed
@@ -57,26 +57,26 @@ Still to be done
   * On the right, select from "Labels" if it is a "Bug fix", "New feature", "Maintenance", or "User request"
   * From "Labels" select "Activity" (this should lead the issue to be automatically added to the Activity project with the "New" status)
 * Assign priority (manager, or in a meeting)
-  * The priority is set within the [Activity view](https://github.com/users/makortel/projects/4) project. When the priority is set, the issue's status should be changed from "New" to "Backlog". 
+  * The priority is set within the [Activities project](https://github.com/orgs/cms-sw/projects/11) project. When the priority is set, the issue's status should be changed from "New" to "Backlog". 
     * The priority issue labels should not be set anymore
   * There are many ways to set the priority and status, some examples
-    * [Backlog view](https://github.com/users/makortel/projects/4/views/1) in the project
-    * [By priority view](https://github.com/users/makortel/projects/4/views/2) in the project
+    * [Backlog view](https://github.com/orgs/cms-sw/projects/11/views/1) in the project
+    * [By priority view](https://github.com/orgs/cms-sw/projects/11/views/2) in the project
     * Within the issue itself (the project assignment on the right)
 * Planning on Activity issue (anyone)
   * The Activity issue is planned with a task list in the issue description
   * An Activity issue can be assigned to a developer at this stage, but it is not necessary
 * When an Activity issue becomes relevant to be worked on (ideally in the weekly meeting, can be in between as well; mostly for manager)
-  * In the [Activity view](https://github.com/users/makortel/projects/4), move the status of the Activity issue from "Backlog" to "Ready"
+  * In the [Activities project](https://github.com/orgs/cms-sw/projects/11), move the status of the Activity issue from "Backlog" to "Ready"
   * Assign the Activity issue to one or more developers
   * Set the Quarter of the Activity issue to the current quarter
   * If the Activity issue has a task list, convert the elements of the task list that could be worked on to issues.
     * Click a circle at the right edge of the element. This creates a new issue
-    * In the new issue, from "Labels" select "Task" (this should lead the issue to be automatically added to the [Task project]([url](https://github.com/users/makortel/projects/5)) with the "Ready" status)
+    * In the new issue, from "Labels" select "Task" (this should lead the issue to be automatically added to the [Tasks project](https://github.com/orgs/cms-sw/projects/10) with the "Ready" status)
     * Set the Quarter of the Task issue to the current quarter
   * If the Activity issue consists from a single task, add the "Task" label to the Activity issue, which then becomes a Task issue as well
 * When the work on a Activity issue actually starts
-  * In the [Activity view](https://github.com/users/makortel/projects/4), move the status of the Activity issue from "Ready" to "In progress"
+  * In the [Activities project](https://github.com/orgs/cms-sw/projects/11), move the status of the Activity issue from "Ready" to "In progress"
   * Set the "Began" date to the date when the work started
   * Set the "Finished" date to the estimated end date
     * The estimate can be crude, e.g. end of current month, end of current quarter, end of current year etc.
@@ -84,7 +84,7 @@ Still to be done
   * Close the Activity issue (the status is automatically set to "Done")
   * Set the "Finished" date to the date when the work was finished (e.g. last PR was merged, documentation was written, presentation was given)
 * If a Activity issue becomes dormant, e.g. no work in a few weeks
-  * In the [Activity view](https://github.com/users/makortel/projects/4), move the status of the Activity issue from "In progress" to "Paused"
+  * In the [Activities project](https://github.com/orgs/cms-sw/projects/11), move the status of the Activity issue from "In progress" to "Paused"
   * The paused Activity issues should be revisited regularly, e.g. to
     * Decide if/when the work could continue (keep the issue paused), or
     * If the remaining work is not that relevant/important anymore, in which case the Activity issue should be split
@@ -107,7 +107,18 @@ Still to be done
 
 ### What to do when new quarter starts?
 
-* In [Activity view](https://github.com/users/makortel/projects/4), update the quarter of all non-Done Activity issues that had the quarter set to the previous quarter
-* In [Task view](https://github.com/users/makortel/projects/5), update the quarter of all non-Done Task issues that had the quarter set to the previous quarter
+* In the [Activities project](https://github.com/orgs/cms-sw/projects/11), update the quarter of all non-Done Activity issues that had the quarter set to the previous quarter
+* In the [Tasks project](https://github.com/orgs/cms-sw/projects/10), update the quarter of all non-Done Task issues that had the quarter set to the previous quarter
 
 
+## Earlier project instances
+
+* Q1 2021
+  * [Activities](https://github.com/cms-sw/framework-team/projects/1)
+  * [Tasks](https://github.com/cms-sw/framework-team/projects/2)
+* Q2 2022 - Q2 2023
+  * [Activities](https://github.com/cms-sw/framework-team/projects/4)
+  * [Tasks](https://github.com/cms-sw/framework-team/projects/6)
+* From Q3 2023 to Q2 2024
+  * [Activities](https://github.com/users/makortel/projects/4)
+  * [Tasks](https://github.com/users/makortel/projects/5)
