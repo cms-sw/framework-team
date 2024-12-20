@@ -42,12 +42,14 @@ Label colors have been created with https://colorbrewer2.org/
 
 ## Walkthroughs
 
-Still to be done
-* What to do for a small maintenance fix?
-* How to update the plan of an Activity?
-* How to finalize an existing Task in an Activity?
-* How to add oneself to an existing Activity?
-* How to change status of an Activity or a Task?
+* [Creating a new Activity](New_activity.md)
+* [Updating the plan of an Activity](Activity_plan_update.md)
+* [Starting to work on a Task](Task_begin.md)
+* [Maintenance fix or documentation update](Task_maintenance_documentation.md)
+* [Finalizing an existing Task](Task_finish.md)
+* [Bookkeeping backport PRs](Task_backport_pr.md)
+* [Adding oneself to an existing Activity](Activity_add_oneself.md)
+* [Change status of an Activity or a Task](Activity_task_change_status.md)
 
 ## Reference
 
@@ -110,6 +112,14 @@ Still to be done
 * In the [Activities project](https://github.com/orgs/cms-sw/projects/11), update the quarter of all non-Done Activity issues that had the quarter set to the previous quarter
 * In the [Tasks project](https://github.com/orgs/cms-sw/projects/10), update the quarter of all non-Done Task issues that had the quarter set to the previous quarter
 
+### Updating framework team group members
+
+Access to the [`framework-team` repository](https://github.com/cms-sw/framework-team) and [Activities](https://github.com/orgs/cms-sw/projects/11) and [Tasks](https://github.com/orgs/cms-sw/projects/10) projects is controlled via GitHub teams:
+* Members of [`core-l2`](https://github.com/orgs/cms-sw/teams/core-team) team are the admins
+* Members of [`core-team`](https://github.com/orgs/cms-sw/teams/core-team) team have write access (e.g. can open issues and change their states in the projects)
+* Everyone else (including public) has read access
+
+The teams are updated via PRs to [`cms-bot`](https://github.com/cms-sw/cms-bot), see e.g. [cms-bot#1245](https://github.com/cms-sw/cms-bot/pull/1245), [cms-bot#2330](https://github.com/cms-sw/cms-bot/pull/2330), [cms-bot#2332](https://github.com/cms-sw/cms-bot/pull/2332). GitHub then sends a confirmation message to the added users that they should accept in order to become members of the team.
 
 ## Earlier project instances
 
