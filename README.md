@@ -63,7 +63,7 @@ Label colors have been created with https://colorbrewer2.org/
     * The priority issue labels should not be set anymore
   * There are many ways to set the priority and status, some examples
     * [Backlog view](https://github.com/orgs/cms-sw/projects/11/views/1) in the project
-    * [By priority view](https://github.com/orgs/cms-sw/projects/11/views/2) in the project
+    * [By importance view](https://github.com/orgs/cms-sw/projects/11/views/2) in the project
     * Within the issue itself (the project assignment on the right)
 * Planning on Activity issue (anyone)
   * The Activity issue is planned with a task list in the issue description
