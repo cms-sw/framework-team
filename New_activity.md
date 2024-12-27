@@ -24,11 +24,5 @@ Then click `Submit new issue`. GitHub will automatically add the new issue to th
 
 ## Create a new issue via the project board
 
-The issue can also be created through the [Activities project](https://github.com/orgs/cms-sw/projects/11). For example, in the [`By importance` view](https://github.com/orgs/cms-sw/projects/11/views/2), first write (part of) `#framework-team` to select that repository for the new issue
-
-![Select repository](images/new_activity_viaboard_repo.png)
-
-----
-
-Then write the title of the issue, and click `+` to create the issue. An issue view opens that has all the usual controls of an issue.
-![Write title](images/new_activity_viaboard_title.png)
+The issue can also be created through the [Activities project](https://github.com/orgs/cms-sw/projects/11). For example, in the [`By importance` view](https://github.com/orgs/cms-sw/projects/11/views/2), start writing the the title of the issue, and then click `Create new issue`
+![Write title and create new issue](images/new_activity_viaboard.png)
