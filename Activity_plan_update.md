@@ -3,9 +3,13 @@
 ## Add new task(s) in the list
 
 Edit the issue description
+
 ![Edit description](images/activity_plan_update_edit.png)
 
+----
+
 Add new task(s) to the task list
+
 ![Add task to list](images/activity_plan_update_add_task.png)
 
 ## Convert task(s) into Task issue(s)
