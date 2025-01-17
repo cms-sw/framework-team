@@ -3,6 +3,7 @@
 ## Nomenclature
 
 * *Task issue*: A single work item, managed in the [Tasks project](https://github.com/orgs/cms-sw/projects/10).
+  * Ideally something taking a few hours to a week of wall clock time. If a task takes longer than a week, think if it could be split into smaller pieces that would make sense.
 * *Activity issue*: High-level issue, could roughly correspond to an issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues). These are planned and managed in [Activities project](https://github.com/orgs/cms-sw/projects/11)
   * Consists of many Task issues, or if it can't or doesn't make sense, it can itself be a Task issue as well.
 * *Umbrella issue*: Even higher-level issue to collect information on many related Activities. There is no specific planning for Umbrellas.
