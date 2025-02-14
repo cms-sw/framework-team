@@ -10,14 +10,6 @@ body:
   attributes: 
     value: |
       * If you are going to work on the Category, assign it to yourself
-      * After creating the Category issue
-        * Create Task (or Aspect) issues as sub-issues
-          * Or assign also `Task` label for this issue if the Objective contains only one Task
-          * You can also use a task list in the description field as a scratchpad, and then convert the task list items to sub-issues
-        * If you start to work on the Objective immediately, expand the "Framework Objectives" project on the pane on the right, and
-          * Set `Status` to `In progress`
-          * Assign `Quarter` as current quarter
-          * Set `Began` to the date you started working on the Objective
 - type: textarea
   attributes:
     label: "Description"
