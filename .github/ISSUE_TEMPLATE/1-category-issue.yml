@@ -1,6 +1,6 @@
 name: "Category issue"
 description: >
-  A Category is loose collection of related Objective (or Category)  issues. It is optional, and should be used only when it makes sense to group multiple Objectives together.
+  Loose collection of related Objective (or Category) issues. Optional, and should be used only when it makes sense to group multiple Objectives together.
 labels: ["Category"]
 body:
 - type: markdown

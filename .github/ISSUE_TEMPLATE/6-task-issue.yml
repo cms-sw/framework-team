@@ -1,7 +1,6 @@
 name: "Task issue"
 description: >
-  Tasks are the lowest level in the hierarchy.
-  Task is either a sub-issue of an Objective or Aspect, or the same issue as the Objective if there is only a single Task.
+  Lowest level work-item in the hierarchy. Eitherither a sub-issue of an Objective or am Aspect, or the same issue as the Objective if there is only a single Task.
 labels: ["Task"]
 projects: ["cms-sw/10"]
 body:

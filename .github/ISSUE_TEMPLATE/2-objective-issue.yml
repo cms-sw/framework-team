@@ -1,8 +1,6 @@
 name: "Objective issue"
 description: >
-  Well-define deliverable, beginning, and end. Composed of one or more Aspect or Task issues.
-  Can optionally be part of a Category.
-  Can be linked to a PR (if contained issues are not linked)
+  Well-define deliverable, beginning, and end. Composed of one or more Aspect or Task issues. Can optionally be part of a Category. Can be linked to a PR (if contained issues are not linked).
 labels: ["Objective"]
 projects: ["cms-sw/11"]
 body:

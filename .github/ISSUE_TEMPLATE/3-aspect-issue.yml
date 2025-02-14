@@ -1,7 +1,6 @@
 name: "Aspect issue"
 description: >
-  An Aspect is an optional sub-division of an Objective, that is composed of multiple Task issues.
-  A PR can be linked to an Aspect if none of the contained Task issues are not linked to any PR.
+  Optional sub-division of an Objective, that is composed of multiple Task issues. Can be linked to a PR (if contained Task issues are not linked).
 labels: ["Aspect"]
 body:
 - type: markdown

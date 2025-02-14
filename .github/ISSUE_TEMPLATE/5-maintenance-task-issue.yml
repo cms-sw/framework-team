@@ -1,6 +1,6 @@
 name: "Maintenance Task issue"
 description: >
-  Maintenance Task is for relatively short maintenance update of any Objective.
+  Relatively short maintenance update outside of any Objective.
 labels: ["Task", "Maintenance"]
 projects: ["cms-sw/10"]
 body:

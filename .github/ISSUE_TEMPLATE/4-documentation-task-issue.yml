@@ -1,6 +1,6 @@
 name: "Documentation Task issue"
 description: >
-  Documentation Task is for documentation update outside of any Objective.
+  Documentation update outside of any Objective.
 labels: ["Task", "Documentation"]
 projects: ["cms-sw/10"]
 body:
