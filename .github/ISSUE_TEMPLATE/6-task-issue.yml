@@ -1,0 +1,14 @@
+name: "Task issue"
+description: >
+  Tasks are the lowest level in the hierarchy.
+  Task is either a sub-issue of an Objective or Aspect, or the same issue as the Objective if there is only a single Task.
+labels: ["Task"]
+projects: ["cms-sw/10"]
+body:
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Task if that is useful, can be empty"
+    placeholder: |
+      For PRs in cms-sw organization, use \"resolves <link to task issue>\" in the PR description,.
+      For other results that can be linked to, add link to this description when done.

@@ -1,0 +1,27 @@
+name: "Objective issue"
+description: >
+  An Objective has well-define deliverable, well-defined beginning and end. It is composed of one or more Aspect or Task issues.
+  An Objective can optionally be part of a Category.
+  A PR can be linked to an Objective if none of the contained Aspect/Task issues are not linked to any PR.
+labels: ["Objective"]
+projects: ["cms-sw/11"]
+body:
+- type: markdown
+  attributes: 
+    value: |
+      * If you are going to work on the Category, assign it to yourself
+      * After creating the Category issue
+        * Create Task (or Aspect) issues as sub-issues
+          * Or assign also `Task` label for this issue if the Objective contains only one Task
+          * You can also use a task list in the description field as a scratchpad, and then convert the task list items to sub-issues
+        * If you start to work on the Objective immediately, expand the "Framework Objectives" project on the pane on the right, and
+          * Set `Status` to `In progress`
+          * Assign `Quarter` as current quarter
+          * Set `Began` to the date you started working on the Objective
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Objective (can be empty)"
+    placeholder: >
+      Write here something about the objective if it is not clear from the title.
+      If there are relevant issue(s) elsewhere (e.g. in cms-sw/cmssw), link them here.

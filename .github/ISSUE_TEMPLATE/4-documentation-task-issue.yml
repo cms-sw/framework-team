@@ -1,0 +1,13 @@
+name: "Documentation Task issue"
+description: >
+  Documentation Task is for documentation update outside of any Objective.
+labels: ["Task", "Documentation"]
+projects: ["cms-sw/10"]
+body:
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Task if that is useful, can be empty"
+    placeholder: |
+      Add a link to the documentation you updated.
+      If you updated a file in a git repository in cms-sw organization, use \"resolves <link to task issue>\" in the PR description,.

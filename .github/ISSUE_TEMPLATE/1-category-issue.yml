@@ -1,0 +1,17 @@
+name: "Category issue"
+description: >
+  A Category is loose collection of related Objective (or Category)  issues. It is optional, and should be used only when it makes sense to group multiple Objectives together.
+labels: ["Category"]
+body:
+- type: markdown
+  attributes: 
+    value: |
+      * After creating the Category issue, create the Objective (or sub-Category) issues as as sub-issues"
+        * You can also use a task list in the description field as a scratchpad, and then convert the task list items to sub-issues
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Category (can be empty)"
+    placeholder: >
+      Write here something about the Category if it is not clear from the title.
+      If there are relevant issue(s) elsewhere (e.g. in cms-sw/cmssw), link them here.

@@ -1,0 +1,18 @@
+name: "Aspect issue"
+description: >
+  An Aspect is an optional sub-division of an Objective, that is composed of multiple Task issues.
+  A PR can be linked to an Aspect if none of the contained Task issues are not linked to any PR.
+labels: ["Aspect"]
+body:
+- type: markdown
+  attributes: 
+    value: |
+      * If you are going to work on the Aspect, assign it to yourself
+      * After creating the Aspect issue, create Task issues as sub-issues
+        * You can also use a task list in the description field as a scratchpad, and then convert the task list items to sub-issues
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Aspect (can be empty)"
+    placeholder: >
+      Write here something about the aspect if it is not clear from the title.
