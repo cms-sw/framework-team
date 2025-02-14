@@ -9,5 +9,5 @@ body:
     label: "Description"
     description: "Description of the Task if that is useful, can be empty"
     placeholder: |
-      For PRs in cms-sw organization, use \"resolves <link to task issue>\" in the PR description,.
+      For PRs in cms-sw organization, use "resolves <link to task issue>" in the PR description,.
       For other results that can be linked to, add link to this description when done.
