@@ -125,11 +125,13 @@ If the deliverable of an Objective, an Aspect, or a Task is a single Pull Reques
 ### Updating framework team group members
 
 Access to the [`framework-team` repository](https://github.com/cms-sw/framework-team) and [Objectives](https://github.com/orgs/cms-sw/projects/11) and [Tasks](https://github.com/orgs/cms-sw/projects/10) projects is controlled via GitHub teams:
-* Members of [`core-l2`](https://github.com/orgs/cms-sw/teams/core-team) team are the admins
+* Members of [`core-l2`](https://github.com/orgs/cms-sw/teams/core-l2) team are the admins
 * Members of [`core-team`](https://github.com/orgs/cms-sw/teams/core-team) team have write access (e.g. can open issues and change their states in the projects)
 * Everyone else (including public) has read access
 
 The teams are updated via PRs to [`cms-bot`](https://github.com/cms-sw/cms-bot), see e.g. [cms-bot#1245](https://github.com/cms-sw/cms-bot/pull/1245), [cms-bot#2330](https://github.com/cms-sw/cms-bot/pull/2330), [cms-bot#2332](https://github.com/cms-sw/cms-bot/pull/2332). GitHub then sends a confirmation message to the added users that they should accept in order to become members of the team.
+
+The permissions of `core-team` are controlled by the `cms-bot` via https://github.com/cms-sw/cms-bot/blob/master/gh-teams.py. The `cms-bot` does not control the permissions of `core-l2` team.
 
 ## Earlier project instances
 
